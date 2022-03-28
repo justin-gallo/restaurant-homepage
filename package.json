@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-homepage",
+  "version": "1.0.0",
+  "description": "A restaurant homepage to practice building with webpack.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-gallo/restaurant-homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-gallo/restaurant-homepage/issues"
+  },
+  "homepage": "https://github.com/justin-gallo/restaurant-homepage#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
