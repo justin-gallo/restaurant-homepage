@@ -352,10 +352,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(12), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(14), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(13), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n}\n\nh1 {\n    color: white;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n#homeCard {\n    background-color: rgba(0, 0, 0, 0.7);\n    width: 80%;\n    height: 80%;\n    padding: 20px;\n    display: flex;\n    align-items: flex-start;\n    justify-content: center;\n    border-radius: 15px;\n}\n\np {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n}\n\nfooter {\n    color: white;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.10);\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -515,7 +519,19 @@ module.exports = function (url, options) {
 /* 12 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+module.exports = __webpack_require__.p + "3d81d0e1fdbd5f69b232.otf";
+
+/***/ }),
+/* 13 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
 module.exports = __webpack_require__.p + "35583e105e923052dd10.jpg";
+
+/***/ }),
+/* 14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "45127c359e19756b99cc.otf";
 
 /***/ })
 /******/ 	]);
