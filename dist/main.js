@@ -1,10 +1,10 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
 /* 1 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -55,6 +55,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /* 2 */
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -164,6 +165,7 @@ module.exports = function (list, options) {
 /* 3 */
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -239,6 +241,7 @@ module.exports = domAPI;
 /* 4 */
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -283,6 +286,7 @@ module.exports = insertBySelector;
 /* 5 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -300,6 +304,7 @@ module.exports = setAttributesWithoutAttributes;
 /* 6 */
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -316,6 +321,7 @@ module.exports = insertStyleElement;
 /* 7 */
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -337,6 +343,7 @@ module.exports = styleTagTransform;
 /* 8 */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -352,14 +359,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(12), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(14), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(13), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(13), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(14), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.10);\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.15);\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -368,6 +375,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolve
 /* 9 */
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (i) {
@@ -378,6 +386,7 @@ module.exports = function (i) {
 /* 10 */
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -485,6 +494,7 @@ module.exports = function (cssWithMappingToString) {
 /* 11 */
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (url, options) {
@@ -519,19 +529,120 @@ module.exports = function (url, options) {
 /* 12 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "3d81d0e1fdbd5f69b232.otf";
 
 /***/ }),
 /* 13 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "35583e105e923052dd10.jpg";
+"use strict";
+module.exports = __webpack_require__.p + "45127c359e19756b99cc.otf";
 
 /***/ }),
 /* 14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "45127c359e19756b99cc.otf";
+"use strict";
+module.exports = __webpack_require__.p + "35583e105e923052dd10.jpg";
+
+/***/ }),
+/* 15 */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const renderHome = () => {
+    renderHeader();
+    renderMain();
+    renderFooter();
+    console.log('render function executed');
+}
+
+const renderHeader = () => {
+    const content = document.getElementById('content');
+    //Create header element:
+    const header = document.createElement('header');
+
+    //Create page title & change text content
+    const title = document.createElement('h1');
+    title.textContent = 'OKINII';
+
+    //Create ul element
+    const navBar = document.createElement('ul');
+    //Create li
+    const homeBtn = document.createElement('li');
+    homeBtn.textContent = 'Home';
+    //Create li
+    const menuBtn = document.createElement('li');
+    menuBtn.textContent = 'Menu';
+    //Create li
+    const aboutBtn = document.createElement('li');
+    aboutBtn.textContent = 'About';
+
+    //Append the three li's to the ul:
+    navBar.appendChild(homeBtn);
+    navBar.appendChild(menuBtn);
+    navBar.appendChild(aboutBtn);
+
+    //Append the h1 to the header:
+    header.appendChild(title);
+    //Append the ul to the header:
+    header.appendChild(navBar)
+    //Append the header to the div#content
+    content.appendChild(header);
+}
+
+const renderMain = () => {
+    const content = document.getElementById('content');
+    const main = document.createElement('main');
+
+    const homeCard = document.createElement('div');
+    homeCard.setAttribute('id', 'homeCard');
+
+    const mainText = document.createElement('p');
+    mainText.textContent = `NYC'S FINEST GOURMET SUSHI`;
+
+    const subText = document.createElement('p');
+    subText.textContent = 'Visit us or order online!';
+
+    const orderBtn = document.createElement('button');
+    orderBtn.setAttribute('id', 'orderBtn');
+    orderBtn.textContent = 'ORDER NOW';
+
+    //Append homeCard children to homeCard
+    homeCard.appendChild(mainText);
+    homeCard.appendChild(subText);
+    homeCard.appendChild(orderBtn);
+
+    //Append homeCard to parent main
+    main.appendChild(homeCard);
+
+    //Append the main to the div#content
+    content.appendChild(main);
+}
+
+const renderFooter = () => {
+    const content = document.getElementById('content');
+    const footer = document.createElement('footer');
+
+    const copyrightInfo = document.createElement('p');
+    copyrightInfo.innerHTML = 'copyright &copy; 2022 justin-gallo';
+
+    footer.appendChild(copyrightInfo);
+    content.appendChild(footer);
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderHome);
+
+/***/ }),
+/* 16 */
+/***/ (() => {
+
+
 
 /***/ })
 /******/ 	]);
@@ -664,10 +775,19 @@ module.exports = __webpack_require__.p + "45127c359e19756b99cc.otf";
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _initial__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(16);
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_menu__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+(0,_initial__WEBPACK_IMPORTED_MODULE_1__["default"])();
 
 
 })();
