@@ -18,13 +18,28 @@ const clearAllChildNodes = (parent) => {
 
 const homeButton = document.getElementById('homeButton');
 const menuButton = document.getElementById('menuButton');
+const orderBtn = document.getElementById('orderBtn');
 
 homeButton.addEventListener('click', function() {
     clearAllChildNodes(mainElement);
     renderHomeContent();
+
+    //Re-find orderBtn button after it is rendered
+    const orderBtn = document.getElementById('orderBtn');
+
+    //Re-assign orderBtn's event listener
+    orderBtn.addEventListener('click', function() {
+        clearAllChildNodes(mainElement);
+        renderMenuContent();
+    });
 });
 
 menuButton.addEventListener('click', function() {
+    clearAllChildNodes(mainElement);
+    renderMenuContent();
+});
+
+orderBtn.addEventListener('click', function() {
     clearAllChildNodes(mainElement);
     renderMenuContent();
 });

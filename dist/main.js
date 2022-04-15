@@ -916,13 +916,28 @@ const clearAllChildNodes = (parent) => {
 
 const homeButton = document.getElementById('homeButton');
 const menuButton = document.getElementById('menuButton');
+const orderBtn = document.getElementById('orderBtn');
 
 homeButton.addEventListener('click', function() {
     clearAllChildNodes(mainElement);
     (0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
+
+    //Re-find orderBtn button after it is rendered
+    const orderBtn = document.getElementById('orderBtn');
+
+    //Re-assign orderBtn's event listener
+    orderBtn.addEventListener('click', function() {
+        clearAllChildNodes(mainElement);
+        (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
+    });
 });
 
 menuButton.addEventListener('click', function() {
+    clearAllChildNodes(mainElement);
+    (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
+});
+
+orderBtn.addEventListener('click', function() {
     clearAllChildNodes(mainElement);
     (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
 });
