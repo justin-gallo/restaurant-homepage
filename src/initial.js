@@ -1,8 +1,7 @@
-const renderHome = () => {
+const renderInitial = () => {
     renderHeader();
     renderMain();
     renderFooter();
-    console.log('render function executed');
 }
 
 const renderHeader = () => {
@@ -43,27 +42,6 @@ const renderMain = () => {
     const content = document.getElementById('content');
     const main = document.createElement('main');
 
-    const homeCard = document.createElement('div');
-    homeCard.setAttribute('id', 'homeCard');
-
-    const mainText = document.createElement('p');
-    mainText.textContent = `NYC'S FINEST GOURMET SUSHI`;
-
-    const subText = document.createElement('p');
-    subText.textContent = 'Visit us or order online!';
-
-    const orderBtn = document.createElement('button');
-    orderBtn.setAttribute('id', 'orderBtn');
-    orderBtn.textContent = 'ORDER NOW';
-
-    //Append homeCard children to homeCard
-    homeCard.appendChild(mainText);
-    homeCard.appendChild(subText);
-    homeCard.appendChild(orderBtn);
-
-    //Append homeCard to parent main
-    main.appendChild(homeCard);
-
     //Append the main to the div#content
     content.appendChild(main);
 }
@@ -79,4 +57,4 @@ const renderFooter = () => {
     content.appendChild(footer);
 }
 
-export default renderHome;
+export default renderInitial;

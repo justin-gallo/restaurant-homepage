@@ -1,6 +1,9 @@
 import './styles.css';
-import renderHome from './initial'
+import renderInitial from './initial'
+import renderHomeContent from './home'
 import renderMenu from './menu'
 
-renderHome();
+//Initial render on load: renders the initial page layout and then the home card layout
+// renderInitial();
+// renderHomeContent();
 
