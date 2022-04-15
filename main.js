@@ -561,12 +561,15 @@ const renderHeader = () => {
     //Create li
     const homeBtn = document.createElement('li');
     homeBtn.textContent = 'Home';
+    homeBtn.setAttribute('id', 'homeButton');
     //Create li
     const menuBtn = document.createElement('li');
     menuBtn.textContent = 'Menu';
+    menuBtn.setAttribute('id', 'menuButton');
     //Create li
     const aboutBtn = document.createElement('li');
     aboutBtn.textContent = 'About';
+    aboutBtn.setAttribute('id', 'aboutButton');
 
     //Append the three li's to the ul:
     navBar.appendChild(homeBtn);
@@ -900,9 +903,29 @@ __webpack_require__.r(__webpack_exports__);
 
 //Initial render on load: renders the initial page layout and then the home card layout
 (0,_initial__WEBPACK_IMPORTED_MODULE_1__["default"])();
-(0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
+(0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
 
 //When clicking on an item in the navigation menu, the 'main' DOM element will be cleared, and the corresponding page 'card' will be rendered.
+const mainElement = document.querySelector('main');
+
+const clearAllChildNodes = (parent) => {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+}
+
+const homeButton = document.getElementById('homeButton');
+const menuButton = document.getElementById('menuButton');
+
+homeButton.addEventListener('click', function() {
+    clearAllChildNodes(mainElement);
+    (0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
+});
+
+menuButton.addEventListener('click', function() {
+    clearAllChildNodes(mainElement);
+    (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
+});
 })();
 
 /******/ })()
