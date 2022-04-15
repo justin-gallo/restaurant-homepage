@@ -1,9 +1,10 @@
 import './styles.css';
 import renderInitial from './initial'
 import renderHomeContent from './home'
-import renderMenu from './menu'
+import renderMenuContent from './menu'
 
 //Initial render on load: renders the initial page layout and then the home card layout
-// renderInitial();
-// renderHomeContent();
+renderInitial();
+renderMenuContent();
 
+//When clicking on an item in the navigation menu, the 'main' DOM element will be cleared, and the corresponding page 'card' will be rendered.

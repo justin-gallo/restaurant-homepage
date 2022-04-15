@@ -1,10 +1,10 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ([
 /* 0 */,
 /* 1 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -55,7 +55,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /* 2 */
 /***/ ((module) => {
 
-"use strict";
 
 
 var stylesInDOM = [];
@@ -165,7 +164,6 @@ module.exports = function (list, options) {
 /* 3 */
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -241,7 +239,6 @@ module.exports = domAPI;
 /* 4 */
 /***/ ((module) => {
 
-"use strict";
 
 
 var memo = {};
@@ -286,7 +283,6 @@ module.exports = insertBySelector;
 /* 5 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -304,7 +300,6 @@ module.exports = setAttributesWithoutAttributes;
 /* 6 */
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -321,7 +316,6 @@ module.exports = insertStyleElement;
 /* 7 */
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -343,7 +337,6 @@ module.exports = styleTagTransform;
 /* 8 */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -366,7 +359,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n/* HOME PAGE STYLES */\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.15);\n}\n\n/* MENU PAGE STYLES */\n#menuCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n}\n\n#menuGrid {\n    display: grid;\n    grid-template-rows: repeat(2, 1fr);\n    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\n    margin: 50px 25px;\n    grid-gap: 30px;\n}\n\n.menuItem {\n    background-color: rgba(255, 255, 255, 0.567);\n    width: auto;\n    height: 180px;\n    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;\n    border-radius: 16px;\n\n    /*Grid Settings*/\n    display: grid;\n    grid-template-columns: 1fr 3fr;\n    grid-template-rows: 1fr 1fr;\n\n    /*Animation*/\n    transition: transform 0.2s;\n}\n\n.menuItem:hover {\n    transform: scale(1.03);\n}\n\n/*MENU ITEM STYLES*/\n.menuItem > img {\n    width: 150px;\n    height: 150px;\n    grid-row: 1 / 3;\n    grid-column: 1 / 2;\n    /*Positioning the image*/\n    justify-self: center;\n    align-self: center;\n    padding-left: 8px;\n    cursor: default;\n}\n\n.menuItem > h3 {\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-end;\n    margin: 0;\n    padding: 0 0 0 8px;\n    font-size: 24px;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n.menuItem > p {\n    font-size: 16px;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    cursor: default;\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n/* HOME PAGE STYLES */\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.15);\n}\n\n/* MENU PAGE STYLES */\n#menuCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n}\n\n#menuGrid {\n    display: grid;\n    grid-template-rows: repeat(2, 1fr);\n    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\n    margin: 50px 25px;\n    grid-gap: 30px;\n}\n\n.menuItem {\n    background-color: rgba(255, 255, 255, 0.567);\n    width: auto;\n    height: 180px;\n    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;\n    border-radius: 16px;\n\n    /*Grid Settings*/\n    display: grid;\n    grid-template-columns: 1fr 3fr;\n    grid-template-rows: 1fr 1fr;\n\n    /*Animation*/\n    transition: transform 0.2s;\n}\n\n.menuItem:hover {\n    transform: scale(1.03);\n}\n\n/*MENU ITEM STYLES*/\n.menuItem > img {\n    width: 150px;\n    height: 150px;\n    grid-row: 1 / 3;\n    grid-column: 1 / 2;\n    /*Positioning the image*/\n    justify-self: center;\n    align-self: center;\n    padding-left: 8px;\n    cursor: default;\n}\n\n.menuItem > h3 {\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-end;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    font-size: 24px;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n.menuItem > p {\n    font-size: 16px;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    cursor: default;\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -375,7 +368,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolve
 /* 9 */
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (i) {
@@ -386,7 +378,6 @@ module.exports = function (i) {
 /* 10 */
 /***/ ((module) => {
 
-"use strict";
 
 
 /*
@@ -494,7 +485,6 @@ module.exports = function (cssWithMappingToString) {
 /* 11 */
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (url, options) {
@@ -529,28 +519,24 @@ module.exports = function (url, options) {
 /* 12 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "3d81d0e1fdbd5f69b232.otf";
 
 /***/ }),
 /* 13 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "45127c359e19756b99cc.otf";
 
 /***/ }),
 /* 14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "35583e105e923052dd10.jpg";
 
 /***/ }),
 /* 15 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -620,7 +606,6 @@ const renderFooter = () => {
 /* 16 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -654,9 +639,121 @@ const renderHomeContent = () => {
 
 /***/ }),
 /* 17 */
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _images_sushiIcon1_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+/* harmony import */ var _images_sushiIcon2_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
+/* harmony import */ var _images_sushiIcon3_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
+/* harmony import */ var _images_sushiIcon4_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(21);
+/* harmony import */ var _images_sushiIcon7_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(22);
+/* harmony import */ var _images_sushiIcon8_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(23);
 
 
+
+
+
+
+
+const createMenuCard = () => {
+    const main = document.querySelector('main');
+
+    const menuCard = document.createElement('div');
+    menuCard.setAttribute('id', 'menuCard');
+
+    main.appendChild(menuCard);
+}
+
+const createMenuGrid = () => {
+    const menuCard = document.getElementById('menuCard');
+
+    const menuGrid = document.createElement('div');
+    menuGrid.setAttribute('id', 'menuGrid');
+
+    menuCard.appendChild(menuGrid);
+}
+
+const createMenuItem = (src, alt, title, description) => {
+    const menuGrid = document.getElementById('menuGrid');
+    
+    //Create the empty menu item:
+    const menuItem = document.createElement('div');
+    menuItem.classList.add('menuItem');
+
+    //Create children for each menu item:
+    const image = document.createElement('img');
+    image.setAttribute('src', src);
+    image.setAttribute('alt', alt);
+
+    const itemTitle = document.createElement('h3');
+    itemTitle.textContent = title;
+
+    const itemDescription = document.createElement('p');
+    itemDescription.textContent = description;
+
+    //Append img, h3, and p to the parent .menuItem:
+    menuItem.appendChild(image);
+    menuItem.appendChild(itemTitle);
+    menuItem.appendChild(itemDescription);
+
+    //Append the .menuItem to parent #menuGrid
+    menuGrid.appendChild(menuItem);
+}
+
+const renderMenuContent = () => {
+    //Create the menu card, then menu grid as a child:
+    createMenuCard();
+    createMenuGrid();
+
+    //Create each menu item individually:
+    createMenuItem(_images_sushiIcon1_svg__WEBPACK_IMPORTED_MODULE_0__, 'Sushi Image', 'Spicy Crab Roll - $7', 'This is the description of the sushi item which will be very delicious');
+    createMenuItem(_images_sushiIcon2_svg__WEBPACK_IMPORTED_MODULE_1__, 'Sushi Image', 'Shrimp Tempura Roll - $7', 'This is the description of the sushi item which will be very delicious');
+    createMenuItem(_images_sushiIcon3_svg__WEBPACK_IMPORTED_MODULE_2__, 'Sushi Image', 'Tuna Roll - $6', 'This is the description of the sushi item which will be very delicious');
+    createMenuItem(_images_sushiIcon4_svg__WEBPACK_IMPORTED_MODULE_3__, 'Sushi Image', 'Salmon Hand Roll - $12', 'This is the description of the sushi item which will be very delicious');
+    createMenuItem(_images_sushiIcon7_svg__WEBPACK_IMPORTED_MODULE_4__, 'Sushi Image', 'Prawn Nigiri - $3', 'This is the description of the sushi item which will be very delicious');
+    createMenuItem(_images_sushiIcon8_svg__WEBPACK_IMPORTED_MODULE_5__, 'Sushi Image', 'Omlette Nigiri - $3', 'This is the description of the sushi item which will be very delicious');
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderMenuContent);
+
+/***/ }),
+/* 18 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "240ba16b689d89a8e447.svg";
+
+/***/ }),
+/* 19 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "6cd38de585bbe9d0d2e6.svg";
+
+/***/ }),
+/* 20 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "d4c9d18e7c346682de09.svg";
+
+/***/ }),
+/* 21 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e7c8cf670caacccdd197.svg";
+
+/***/ }),
+/* 22 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "215d9e2cceb7f2cc766a.svg";
+
+/***/ }),
+/* 23 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "edba0312aba549f62af6.svg";
 
 /***/ })
 /******/ 	]);
@@ -789,25 +886,23 @@ const renderHomeContent = () => {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _initial__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(16);
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
-/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_menu__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 
 
 //Initial render on load: renders the initial page layout and then the home card layout
-// renderInitial();
-// renderHomeContent();
+(0,_initial__WEBPACK_IMPORTED_MODULE_1__["default"])();
+(0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
 
-
+//When clicking on an item in the navigation menu, the 'main' DOM element will be cleared, and the corresponding page 'card' will be rendered.
 })();
 
 /******/ })()
