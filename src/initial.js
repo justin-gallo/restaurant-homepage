@@ -18,12 +18,15 @@ const renderHeader = () => {
     //Create li
     const homeBtn = document.createElement('li');
     homeBtn.textContent = 'Home';
+    homeBtn.setAttribute('id', 'homeButton');
     //Create li
     const menuBtn = document.createElement('li');
     menuBtn.textContent = 'Menu';
+    menuBtn.setAttribute('id', 'menuButton');
     //Create li
     const aboutBtn = document.createElement('li');
     aboutBtn.textContent = 'About';
+    aboutBtn.setAttribute('id', 'aboutButton');
 
     //Append the three li's to the ul:
     navBar.appendChild(homeBtn);
