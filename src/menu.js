@@ -56,12 +56,12 @@ const renderMenuContent = () => {
     createMenuGrid();
 
     //Create each menu item individually:
-    createMenuItem(icon1, 'Sushi Image', 'Spicy Crab Roll - $7', 'This is the description of the sushi item which will be very delicious');
-    createMenuItem(icon2, 'Sushi Image', 'Shrimp Tempura Roll - $7', 'This is the description of the sushi item which will be very delicious');
-    createMenuItem(icon3, 'Sushi Image', 'Tuna Roll - $6', 'This is the description of the sushi item which will be very delicious');
-    createMenuItem(icon4, 'Sushi Image', 'Salmon Hand Roll - $12', 'This is the description of the sushi item which will be very delicious');
-    createMenuItem(icon7, 'Sushi Image', 'Prawn Nigiri - $3', 'This is the description of the sushi item which will be very delicious');
-    createMenuItem(icon8, 'Sushi Image', 'Omlette Nigiri - $3', 'This is the description of the sushi item which will be very delicious');
+    createMenuItem(icon1, 'Sushi Image', 'Spicy Crab Roll - $7', 'Spicy kani crab wrapped in nori seaweed sheets and vinegared rice.');
+    createMenuItem(icon2, 'Sushi Image', 'California Roll - $7', 'Cucumber, crab and avocado wrapped in vinegared rice.');
+    createMenuItem(icon3, 'Sushi Image', 'Tuna Roll - $6', 'Sashimi-grade tuna wrapped in nori seaweed and vinegared rice.');
+    createMenuItem(icon4, 'Sushi Image', 'Salmon Hand Roll - $12', 'Spicy baked salmon, avocado and seasoned rice, hand-wrapped in nori seaweed. ');
+    createMenuItem(icon7, 'Sushi Image', 'Prawn Nigiri - $3', 'Vinegared rice topped with a cooked king prawn.');
+    createMenuItem(icon8, 'Sushi Image', 'Tamago Nigiri - $3', 'Vinegared rice topped with tamagosushi (egg).');
 }
 
 export default renderMenuContent;
