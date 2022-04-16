@@ -359,7 +359,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n/* HOME PAGE STYLES */\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.15);\n}\n\n/* MENU PAGE STYLES */\n#menuCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n}\n\n#menuGrid {\n    display: grid;\n    grid-template-rows: repeat(2, 1fr);\n    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\n    margin: 50px 25px;\n    grid-gap: 30px;\n}\n\n.menuItem {\n    background-color: rgba(255, 255, 255, 0.567);\n    width: auto;\n    height: 180px;\n    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;\n    border-radius: 16px;\n\n    /*Grid Settings*/\n    display: grid;\n    grid-template-columns: 1fr 3fr;\n    grid-template-rows: 1fr 1fr;\n\n    /*Animation*/\n    transition: transform 0.2s;\n}\n\n.menuItem:hover {\n    transform: scale(1.03);\n}\n\n/*MENU ITEM STYLES*/\n.menuItem > img {\n    width: 150px;\n    height: 150px;\n    grid-row: 1 / 3;\n    grid-column: 1 / 2;\n    /*Positioning the image*/\n    justify-self: center;\n    align-self: center;\n    padding-left: 8px;\n    cursor: default;\n}\n\n.menuItem > h3 {\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-end;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    font-size: 22px;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n.menuItem > p {\n    font-size: 16px;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    cursor: default;\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: 'Coolvetica';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Bohemian Soul';\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('opentype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nhtml, body {\n    margin: 0;\n    height: 100%;\n}\n\n#content {\n    background-color: black;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    display: grid;\n    grid-template-rows: 150px 1fr 50px;\n}\n\nheader {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\nul {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    list-style-type: none;\n    font-size: 20px;\n    color: white;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\nli:hover {\n    transform: scale(1.10);\n}\n\nh1 {\n    color: white;\n    font-size: 60px;\n    margin: 0;\n    cursor: default;\n    font-family: 'Bohemian Soul', serif;\n    letter-spacing: 5px;\n}\n\nmain {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    background-size: cover;\n    background-position: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n/* HOME PAGE STYLES */\n#homeCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#homeCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 72px;\n    width: 300px;\n    margin: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#homeCard > p:nth-of-type(2) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 35vw;\n    margin-bottom: 5vh;\n    font-family: 'Coolvetica', sans-serif;\n    letter-spacing: 0.5px;\n    cursor: default;\n}\n\n#orderBtn {\n    border: none;\n    border-radius: 8px;\n    width: 120px;\n    height: 32px;\n    background-color: #709a15;\n    color: white;\n    font-size: 16px;\n    font-weight:bold;\n    font-family: 'Coolvetica', sans-serif;\n    transition: transform 0.2s;\n    cursor: pointer;\n}\n\n#orderBtn:hover {\n    transform: scale(1.15);\n}\n\n/* MENU PAGE STYLES */\n#menuCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n}\n\n#menuGrid {\n    display: grid;\n    grid-template-rows: repeat(2, 1fr);\n    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));\n    margin: 50px 25px;\n    grid-gap: 30px;\n}\n\n.menuItem {\n    background-color: rgba(255, 255, 255, 0.567);\n    width: auto;\n    height: 180px;\n    box-shadow: rgba(0, 0, 0, 0.15) 3.5px 3.5px 3px;\n    border-radius: 16px;\n\n    /*Grid Settings*/\n    display: grid;\n    grid-template-columns: 1fr 3fr;\n    grid-template-rows: 1fr 1fr;\n\n    /*Animation*/\n    transition: transform 0.2s;\n}\n\n.menuItem:hover {\n    transform: scale(1.03);\n}\n\n/*MENU ITEM STYLES*/\n.menuItem > img {\n    width: 150px;\n    height: 150px;\n    grid-row: 1 / 3;\n    grid-column: 1 / 2;\n    /*Positioning the image*/\n    justify-self: center;\n    align-self: center;\n    padding-left: 8px;\n    cursor: default;\n}\n\n.menuItem > h3 {\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-end;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    font-size: 22px;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n.menuItem > p {\n    font-size: 16px;\n    margin: 0;\n    padding: 0 20px 0 8px;\n    cursor: default;\n}\n\n/*ABOUT PAGE STYLES*/\n#aboutCard {\n    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n}\n\n#aboutCard > p:first-of-type {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 32px;\n    width: 300px;\n    margin: 50px 0 20px 0;\n    padding: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\n#aboutCard > p:nth-of-type(2), \n#aboutCard > p:nth-of-type(3), \n#aboutCard > p:nth-of-type(4) {\n    color: white;\n    word-break: normal;\n    white-space: normal;\n    text-align: center;\n    font-size: 20px;\n    width: 300px;\n    margin: 0;\n    padding: 0;\n    font-family: 'Coolvetica', sans-serif;\n    cursor: default;\n}\n\niframe {\n    border-radius: 20px;\n    margin: 20px 0 50px 0;\n    width: 50vw;\n    max-width: 400px;\n    height: 50vw;\n    max-height: 400px;\n}\n\nfooter {\n    color: white;\n    background-color: black;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: default;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -902,45 +902,45 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //Initial render on load: renders the initial page layout and then the home card layout
-(0,_initial__WEBPACK_IMPORTED_MODULE_1__["default"])();
-(0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
+// renderInitial();
+// renderHomeContent();
 
-//When clicking on an item in the navigation menu, the 'main' DOM element will be cleared, and the corresponding page 'card' will be rendered.
-const mainElement = document.querySelector('main');
+// //When clicking on an item in the navigation menu, the 'main' DOM element will be cleared, and the corresponding page 'card' will be rendered.
+// const mainElement = document.querySelector('main');
 
-const clearAllChildNodes = (parent) => {
-    while (parent.firstChild) {
-        parent.removeChild(parent.firstChild);
-    }
-}
+// const clearAllChildNodes = (parent) => {
+//     while (parent.firstChild) {
+//         parent.removeChild(parent.firstChild);
+//     }
+// }
 
-const homeButton = document.getElementById('homeButton');
-const menuButton = document.getElementById('menuButton');
-const orderBtn = document.getElementById('orderBtn');
+// const homeButton = document.getElementById('homeButton');
+// const menuButton = document.getElementById('menuButton');
+// const orderBtn = document.getElementById('orderBtn');
 
-homeButton.addEventListener('click', function() {
-    clearAllChildNodes(mainElement);
-    (0,_home__WEBPACK_IMPORTED_MODULE_2__["default"])();
+// homeButton.addEventListener('click', function() {
+//     clearAllChildNodes(mainElement);
+//     renderHomeContent();
 
-    //Re-find orderBtn button after it is rendered
-    const orderBtn = document.getElementById('orderBtn');
+//     //Re-find orderBtn button after it is rendered
+//     const orderBtn = document.getElementById('orderBtn');
 
-    //Re-assign orderBtn's event listener
-    orderBtn.addEventListener('click', function() {
-        clearAllChildNodes(mainElement);
-        (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
-    });
-});
+//     //Re-assign orderBtn's event listener
+//     orderBtn.addEventListener('click', function() {
+//         clearAllChildNodes(mainElement);
+//         renderMenuContent();
+//     });
+// });
 
-menuButton.addEventListener('click', function() {
-    clearAllChildNodes(mainElement);
-    (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
-});
+// menuButton.addEventListener('click', function() {
+//     clearAllChildNodes(mainElement);
+//     renderMenuContent();
+// });
 
-orderBtn.addEventListener('click', function() {
-    clearAllChildNodes(mainElement);
-    (0,_menu__WEBPACK_IMPORTED_MODULE_3__["default"])();
-});
+// orderBtn.addEventListener('click', function() {
+//     clearAllChildNodes(mainElement);
+//     renderMenuContent();
+// });
 })();
 
 /******/ })()
