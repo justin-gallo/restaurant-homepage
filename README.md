@@ -7,6 +7,11 @@ A restaurant homepage to practice building with webpack.
 - ES6 modules for organizing code is really useful, and significantly increases readability of my code. 
 - Improved my functional programming skills. I could have created each menu item by hand, but instead created a function to reduce repetitive code. 
 - Learned how to include a favicon on the page's tab. 
+- Learned how to create a subtree with Git and point gh-pages to that subtree using
+```
+git subtree push --prefix dist origin gh-pages
+```
+- Learned how to use code blocks in markdown like that fancy one I used above!
 
 ## Things to Improve: 
 
