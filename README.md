@@ -1,6 +1,8 @@
 # restaurant-homepage
 A restaurant homepage to practice building with webpack.
 
+[Live Preview](https://justin-gallo.github.io/restaurant-homepage/)
+
 ## Things I Learned: 
 
 - Webpack (and module bundling in general) is REALLY cool.
@@ -16,6 +18,4 @@ git subtree push --prefix dist origin gh-pages
 ## Things to Improve: 
 
 - I'd like to improve the responsiveness of the "About" page. The current layout is fine for mobile and tablet, but for the desktop layout I'd prefer the map to shift to a right column with the information on the left of it. This should make better use of the space available on wider devices and will reduce the need to scroll. 
-- It seems like there is a CSS issue on iOS devices in Safari; the spacing on the homepage is incorrect. 
-
-[Live Preview](https://justin-gallo.github.io/restaurant-homepage/)
+- ~~It seems like there is a CSS issue on iOS devices in Safari; the spacing on the homepage is incorrect.~~ Resolved by adding a media query for mobile-specific styling. Also optimized the menu page to better fit mobile using the same method. 
