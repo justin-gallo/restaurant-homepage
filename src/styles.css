@@ -159,7 +159,6 @@ main {
     transform: scale(1.03);
 }
 
-/*MENU ITEM STYLES*/
 .menuItem > img {
     width: 150px;
     height: 150px;
@@ -178,7 +177,7 @@ main {
     align-items: flex-end;
     margin: 0;
     padding: 0 20px 0 8px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Coolvetica', sans-serif;
     cursor: default;
 }
@@ -188,6 +187,35 @@ main {
     margin: 0;
     padding: 0 20px 0 8px;
     cursor: default;
+}
+
+@media only screen and (max-width: 450px) {
+    #menuGrid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 50px 30px;
+        grid-gap: 30px;
+    }
+
+    .menuItem {
+        width: auto;
+        height: 150px;
+    }
+
+    .menuItem > img {
+        width: 110px;
+        height: 110px;
+        padding-left: 16px;
+    }
+
+    .menuItem > h3 {
+        padding: 0 16px 0 12px;
+        font-size: 18px;
+    }
+
+    .menuItem > p {
+        font-size: 14px;
+        padding: 0 16px 0 12px;
+    }
 }
 
 /*ABOUT PAGE STYLES*/
